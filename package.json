@@ -1,0 +1,29 @@
+{
+  "name": "@openinf/util-text",
+  "version": "1.0.0",
+  "description": "Essential cross-platform terminal-friendly text utilities",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openinf/util-text.git"
+  },
+  "author": "The OpenINF Authors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/openinf/util-text/issues"
+  },
+  "homepage": "https://github.com/openinf/util-text#readme",
+  "devDependencies": {
+    "@types/cli-color": "^2.0.0",
+    "@types/node": "^14.14.22"
+  },
+  "dependencies": {
+    "cli-color": "^2.0.0",
+    "has-unicode": "^2.0.1",
+    "supports-ansi": "^1.0.6"
+  }
+}
