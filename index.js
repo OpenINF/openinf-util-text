@@ -6,15 +6,18 @@
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://open.inf.is/license
  */
-exports.__esModule = true;
-exports.underline = exports.redden = exports.italicize = exports.ellipsify = exports.curlyQuote = exports.blueify = exports.UnicodeEscapes = void 0;
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.yellow = exports.underline = exports.redden = exports.italicize = exports.ellipsify = exports.curlyQuote = exports.blueify = exports.UnicodeEscapes = void 0;
 // -----------------------------------------------------------------------------
 // Requirements
 // -----------------------------------------------------------------------------
-var util_1 = require("util");
-var cli_color_1 = require("cli-color");
-var has_unicode_1 = require("has-unicode");
-var supports_ansi_1 = require("supports-ansi");
+const util_1 = require("util");
+const cli_color_1 = __importDefault(require("cli-color"));
+const has_unicode_1 = __importDefault(require("has-unicode"));
+const supports_ansi_1 = __importDefault(require("supports-ansi"));
 /** @enum {string} */
 exports.UnicodeEscapes = {
     infoSymbol: '\u24D8',
@@ -23,7 +26,7 @@ exports.UnicodeEscapes = {
     errorSymbol: '\u24E7',
     leftDoubleQuotes: '\u201c',
     rightDoubleQuotes: '\u201d',
-    warningSymbol: '\u26A0'
+    warningSymbol: '\u26A0',
 };
 // -----------------------------------------------------------------------------
 // Helpers
@@ -34,31 +37,34 @@ exports.UnicodeEscapes = {
  * @returns {string}
  */
 function blueify(arbitraryString) {
-    return supports_ansi_1["default"] ? cli_color_1["default"].blue(arbitraryString) : arbitraryString;
+    return supports_ansi_1.default ? cli_color_1.default.blue(arbitraryString) : arbitraryString;
 }
 exports.blueify = blueify;
 /**
+ * Returns the supplied string as curly quoted if Unicode is supported.
  * @param {string} arbitraryStr
- * @returns {string} The parameter curly quoted if Unicode is supported.
+ * @returns {string}
  */
 function curlyQuote(arbitraryStr) {
-    return util_1.format('%s%s%s', has_unicode_1["default"]() ? exports.UnicodeEscapes.leftDoubleQuotes : "\"", arbitraryStr, has_unicode_1["default"]() ? exports.UnicodeEscapes.rightDoubleQuotes : "\"");
+    return util_1.format('%s%s%s', has_unicode_1.default() ? exports.UnicodeEscapes.leftDoubleQuotes : "\"", arbitraryStr, has_unicode_1.default() ? exports.UnicodeEscapes.rightDoubleQuotes : "\"");
 }
 exports.curlyQuote = curlyQuote;
 /**
+ * Returns the supplied string as ellipsified if Unicode is supported.
  * @param {string} arbitraryStr
- * @returns {string} The parameter ellipsified if Unicode is supported.
+ * @returns {string}
  */
 function ellipsify(arbitraryStr) {
-    return util_1.format('%s%s', arbitraryStr, has_unicode_1["default"]() ? exports.UnicodeEscapes.ellipsis : '...');
+    return util_1.format('%s%s', arbitraryStr, has_unicode_1.default() ? exports.UnicodeEscapes.ellipsis : '...');
 }
 exports.ellipsify = ellipsify;
 /**
+ * Returns the supplied string as italicized if ANSI escapes are supported.
  * @param {string} arbitraryStr
- * @returns {string} The parameter italicized if ANSI escapes are supported.
+ * @returns {string}
  */
 function italicize(arbitraryStr) {
-    return supports_ansi_1["default"] ? cli_color_1["default"].italic(arbitraryStr) : arbitraryStr;
+    return supports_ansi_1.default ? cli_color_1.default.italic(arbitraryStr) : arbitraryStr;
 }
 exports.italicize = italicize;
 /**
@@ -67,14 +73,24 @@ exports.italicize = italicize;
  * @returns {string}
  */
 function redden(arbitraryString) {
-    return supports_ansi_1["default"] ? cli_color_1["default"].red(arbitraryString) : arbitraryString;
+    return supports_ansi_1.default ? cli_color_1.default.red(arbitraryString) : arbitraryString;
 }
 exports.redden = redden;
 /**
+ * Returns the supplied string as underlined if ANSI escapes are supported.
  * @param {string} arbitraryStr
- * @returns {string} The parameter underlined if ANSI escapes are supported.
+ * @returns {string}
  */
 function underline(arbitraryStr) {
-    return supports_ansi_1["default"] ? cli_color_1["default"].underline(arbitraryStr) : arbitraryStr;
+    return supports_ansi_1.default ? cli_color_1.default.underline(arbitraryStr) : arbitraryStr;
 }
 exports.underline = underline;
+/**
+ * Returns the supplied string as yellow colored if ANSI escapes are supported.
+ * @param {string} arbitraryString
+ * @returns {string}
+ */
+function yellow(arbitraryString) {
+    return supports_ansi_1.default ? cli_color_1.default.yellow(arbitraryString) : arbitraryString;
+}
+exports.yellow = yellow;

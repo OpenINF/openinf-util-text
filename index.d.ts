@@ -22,18 +22,21 @@ export declare const UnicodeEscapes: {
  */
 export declare function blueify(arbitraryString: string): string;
 /**
+ * Returns the supplied string as curly quoted if Unicode is supported.
  * @param {string} arbitraryStr
- * @returns {string} The parameter curly quoted if Unicode is supported.
+ * @returns {string}
  */
 export declare function curlyQuote(arbitraryStr: string): string;
 /**
+ * Returns the supplied string as ellipsified if Unicode is supported.
  * @param {string} arbitraryStr
- * @returns {string} The parameter ellipsified if Unicode is supported.
+ * @returns {string}
  */
 export declare function ellipsify(arbitraryStr: string): string;
 /**
+ * Returns the supplied string as italicized if ANSI escapes are supported.
  * @param {string} arbitraryStr
- * @returns {string} The parameter italicized if ANSI escapes are supported.
+ * @returns {string}
  */
 export declare function italicize(arbitraryStr: string): string;
 /**
@@ -43,8 +46,9 @@ export declare function italicize(arbitraryStr: string): string;
  */
 export declare function redden(arbitraryString: string): string;
 /**
+ * Returns the supplied string as underlined if ANSI escapes are supported.
  * @param {string} arbitraryStr
- * @returns {string} The parameter underlined if ANSI escapes are supported.
+ * @returns {string}
  */
 export declare function underline(arbitraryStr: string): string;
 /**
