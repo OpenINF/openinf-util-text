@@ -40,8 +40,9 @@ export function blueify(arbitraryString:string):string {
 }
 
 /**
+ * Returns the supplied string as curly quoted if Unicode is supported.
  * @param {string} arbitraryStr
- * @returns {string} The parameter curly quoted if Unicode is supported.
+ * @returns {string}
  */
 export function curlyQuote(arbitraryStr:string):string {
   return format(
@@ -53,8 +54,9 @@ export function curlyQuote(arbitraryStr:string):string {
 }
 
 /**
+ * Returns the supplied string as ellipsified if Unicode is supported.
  * @param {string} arbitraryStr
- * @returns {string} The parameter ellipsified if Unicode is supported.
+ * @returns {string}
  */
 export function ellipsify(arbitraryStr:string):string {
   return format('%s%s', arbitraryStr,
@@ -62,8 +64,9 @@ export function ellipsify(arbitraryStr:string):string {
 }
 
 /**
+ * Returns the supplied string as italicized if ANSI escapes are supported.
  * @param {string} arbitraryStr
- * @returns {string} The parameter italicized if ANSI escapes are supported.
+ * @returns {string}
  */
 export function italicize(arbitraryStr:string):string {
   return supportsAnsi ? clc.italic(arbitraryStr) : arbitraryStr;
@@ -79,8 +82,9 @@ export function redden(arbitraryString:string):string {
 }
 
 /**
+ * Returns the supplied string as underlined if ANSI escapes are supported.
  * @param {string} arbitraryStr
- * @returns {string} The parameter underlined if ANSI escapes are supported.
+ * @returns {string}
  */
 export function underline(arbitraryStr:string):string {
   return supportsAnsi ? clc.underline(arbitraryStr) : arbitraryStr;
