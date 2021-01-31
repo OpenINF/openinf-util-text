@@ -1,0 +1,62 @@
+<h1 align="center">@openinf/util-text</h1>
+
+<p align="center">Essential cross-platform terminal-friendly text utilities</p>
+
+<br />
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/@openinf/util-text"><img src="https://img.shields.io/npm/v/@openinf/util-text?style=plastic" alt="view on npm" /></a>
+  <img src="https://img.shields.io/github/languages/top/openinf/util-text?color=blue&style=plastic" />
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/github/license/openinf/openinf.github.io?color=blue&style=plastic" alt="License: MIT" /></a>
+</p>
+
+<br />
+
+_The high-level goal of `@openinf/util-text` is to serve as a Node.js package
+containing **essential cross-platform text utilities** that degrade gracefully
+when used in terminals lacking feature support. As is the case with any software
+project in continuous development, omissions and errors may exist, for which
+contributions are welcome._
+
+<br />
+
+---
+
+<br />
+
+## Installation
+
+`@openinf/util-text` runs on Node.js and is available via `npm`.
+
+```shell
+npm install @openinf/util-text
+```
+
+## Usage
+
+To get started using the text utils provided by `@openinf/util-text`, all
+that needs to be done is either import/require (depending on the module format)
+the default export of the module or destructure the individual named helper
+functions exported.
+
+```ts
+import { blueify, ellipsify } from '@openinf/util-text';
+
+console.log(blueify(ellipsify('Deserializing database tables')));
+```
+
+<br />
+
+---
+
+<br />
+
+{{>main}}
+
+<br />
+
+---
+
+<br />
+
+&copy; OpenINF
