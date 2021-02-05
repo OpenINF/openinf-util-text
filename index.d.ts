@@ -40,6 +40,13 @@ export declare function ellipsify(arbitraryStr: string): string;
  */
 export declare function italicize(arbitraryStr: string): string;
 /**
+ * Processes the supplied string by transforming any Markdown backtick code
+ * spans (begining and ending with a single backtack) into HTML code elements.
+ * @param {string} arbitraryStr
+ * @returns {string}
+ */
+export declare function mdCodeSpans2html(arbitraryStr: string): string;
+/**
  * Returns the supplied string as red colored if ANSI escapes are supported.
  * @param {string} arbitraryString
  * @returns {string}

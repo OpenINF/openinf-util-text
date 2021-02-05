@@ -73,6 +73,10 @@ console.log(blueify(ellipsify('Deserializing database tables')));
 <dt><a href="#italicize">italicize(arbitraryStr)</a> ⇒ <code>string</code></dt>
 <dd><p>Returns the supplied string as italicized if ANSI escapes are supported.</p>
 </dd>
+<dt><a href="#mdCodeSpans2html">mdCodeSpans2html(arbitraryStr)</a> ⇒ <code>string</code></dt>
+<dd><p>Processes the supplied string by transforming any Markdown backtick code
+spans (begining and ending with a single backtack) into HTML code elements.</p>
+</dd>
 <dt><a href="#redden">redden(arbitraryString)</a> ⇒ <code>string</code></dt>
 <dd><p>Returns the supplied string as red colored if ANSI escapes are supported.</p>
 </dd>
@@ -145,6 +149,18 @@ Returns the supplied string as ellipsified if Unicode is supported.
 
 ## italicize(arbitraryStr) ⇒ <code>string</code>
 Returns the supplied string as italicized if ANSI escapes are supported.
+
+**Kind**: global function  
+
+| Param | Type |
+| --- | --- |
+| arbitraryStr | <code>string</code> | 
+
+<a name="mdCodeSpans2html"></a>
+
+## mdCodeSpans2html(arbitraryStr) ⇒ <code>string</code>
+Processes the supplied string by transforming any Markdown backtick code
+spans (begining and ending with a single backtack) into HTML code elements.
 
 **Kind**: global function  
 
