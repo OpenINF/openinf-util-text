@@ -73,6 +73,22 @@ export function italicize(arbitraryStr:string):string {
 }
 
 /**
+ * Processes the supplied string by transforming any Markdown backtick code
+ * spans (begining and ending with a single backtack) into HTML code elements.
+ * @param {string} arbitraryStr
+ * @returns {string}
+ */
+export function mdCodeSpans2html(arbitraryStr:string):string {
+  const codeSpanRegex = new RegExp(/(`+)([^`]|[^`][\s\S]*?[^`])\1(?!`)/ig);
+
+  let span = codeSpanRegex.exec(arbitraryStr)![2];
+  span = span.replace(/^[ ]*/, ''); // leading whitespace
+  span = span.replace(/[ ]*$/, ''); // trailing whitespace
+
+  return arbitraryStr.replace(codeSpanRegex, `<code>${ span }</code>`);
+}
+
+/**
  * Returns the supplied string as red colored if ANSI escapes are supported.
  * @param {string} arbitraryString
  * @returns {string}
