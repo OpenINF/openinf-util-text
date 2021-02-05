@@ -10,7 +10,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.yellow = exports.underline = exports.redden = exports.italicize = exports.ellipsify = exports.curlyQuote = exports.blueify = exports.UnicodeEscapes = void 0;
+exports.yellow = exports.underline = exports.redden = exports.mdCodeSpans2html = exports.italicize = exports.ellipsify = exports.curlyQuote = exports.blueify = exports.UnicodeEscapes = void 0;
 // -----------------------------------------------------------------------------
 // Requirements
 // -----------------------------------------------------------------------------
@@ -67,6 +67,20 @@ function italicize(arbitraryStr) {
     return supports_ansi_1.default ? cli_color_1.default.italic(arbitraryStr) : arbitraryStr;
 }
 exports.italicize = italicize;
+/**
+ * Processes the supplied string by transforming any Markdown backtick code
+ * spans (begining and ending with a single backtack) into HTML code elements.
+ * @param {string} arbitraryStr
+ * @returns {string}
+ */
+function mdCodeSpans2html(arbitraryStr) {
+    const codeSpanRegex = new RegExp(/(`+)([^`]|[^`][\s\S]*?[^`])\1(?!`)/ig);
+    let span = codeSpanRegex.exec(arbitraryStr)[2];
+    span = span.replace(/^[ ]*/, ''); // leading whitespace
+    span = span.replace(/[ ]*$/, ''); // trailing whitespace
+    return arbitraryStr.replace(codeSpanRegex, `<code>${span}</code>`);
+}
+exports.mdCodeSpans2html = mdCodeSpans2html;
 /**
  * Returns the supplied string as red colored if ANSI escapes are supported.
  * @param {string} arbitraryString
