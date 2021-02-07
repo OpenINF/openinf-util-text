@@ -27,78 +27,78 @@ exports.UnicodeEscapes = {
 // -----------------------------------------------------------------------------
 /**
  * Returns the supplied string as blue colored if ANSI escapes are supported.
- * @param {string} arbitraryString
+ * @param {string} text
  * @returns {string}
  */
-function blueify(arbitraryString) {
-    return supports_ansi_1.default ? cli_color_1.default.blue(arbitraryString) : arbitraryString;
+function blueify(text) {
+    return supports_ansi_1.default ? cli_color_1.default.blue(text) : text;
 }
 exports.blueify = blueify;
 /**
  * Returns the supplied string as curly quoted if Unicode is supported.
- * @param {string} arbitraryStr
+ * @param {string} text
  * @returns {string}
  */
-function curlyQuote(arbitraryStr) {
-    return util_1.format('%s%s%s', has_unicode_1.default() ? exports.UnicodeEscapes.leftDoubleQuotes : "\"", arbitraryStr, has_unicode_1.default() ? exports.UnicodeEscapes.rightDoubleQuotes : "\"");
+function curlyQuote(text) {
+    return util_1.format('%s%s%s', has_unicode_1.default() ? exports.UnicodeEscapes.leftDoubleQuotes : "\"", text, has_unicode_1.default() ? exports.UnicodeEscapes.rightDoubleQuotes : "\"");
 }
 exports.curlyQuote = curlyQuote;
 /**
  * Returns the supplied string as ellipsified if Unicode is supported.
- * @param {string} arbitraryStr
+ * @param {string} text
  * @returns {string}
  */
-function ellipsify(arbitraryStr) {
-    return util_1.format('%s%s', arbitraryStr, has_unicode_1.default() ? exports.UnicodeEscapes.ellipsis : '...');
+function ellipsify(text) {
+    return util_1.format('%s%s', text, has_unicode_1.default() ? exports.UnicodeEscapes.ellipsis : '...');
 }
 exports.ellipsify = ellipsify;
 /**
  * Returns the supplied string as italicized if ANSI escapes are supported.
- * @param {string} arbitraryStr
+ * @param {string} text
  * @returns {string}
  */
-function italicize(arbitraryStr) {
-    return supports_ansi_1.default ? cli_color_1.default.italic(arbitraryStr) : arbitraryStr;
+function italicize(text) {
+    return supports_ansi_1.default ? cli_color_1.default.italic(text) : text;
 }
 exports.italicize = italicize;
 /**
  * Processes the supplied string by transforming any Markdown backtick code
  * spans (begining and ending with a single backtack) into HTML code elements.
- * @param {string} arbitraryStr
+ * @param {string} text
  * @returns {string}
  */
-function mdCodeSpans2html(arbitraryStr) {
+function mdCodeSpans2html(text) {
     const codeSpanRegex = new RegExp(/(`+)([^`]|[^`][\s\S]*?[^`])\1(?!`)/ig);
-    let span = codeSpanRegex.exec(arbitraryStr)[2];
+    let span = codeSpanRegex.exec(text)[2];
     span = span.replace(/^[ ]*/, ''); // leading whitespace
     span = span.replace(/[ ]*$/, ''); // trailing whitespace
-    return arbitraryStr.replace(codeSpanRegex, `<code>${span}</code>`);
+    return text.replace(codeSpanRegex, `<code>${span}</code>`);
 }
 exports.mdCodeSpans2html = mdCodeSpans2html;
 /**
  * Returns the supplied string as red colored if ANSI escapes are supported.
- * @param {string} arbitraryString
+ * @param {string} text
  * @returns {string}
  */
-function redden(arbitraryString) {
-    return supports_ansi_1.default ? cli_color_1.default.red(arbitraryString) : arbitraryString;
+function redden(text) {
+    return supports_ansi_1.default ? cli_color_1.default.red(text) : text;
 }
 exports.redden = redden;
 /**
  * Returns the supplied string as underlined if ANSI escapes are supported.
- * @param {string} arbitraryStr
+ * @param {string} text
  * @returns {string}
  */
-function underline(arbitraryStr) {
-    return supports_ansi_1.default ? cli_color_1.default.underline(arbitraryStr) : arbitraryStr;
+function underline(text) {
+    return supports_ansi_1.default ? cli_color_1.default.underline(text) : text;
 }
 exports.underline = underline;
 /**
  * Returns the supplied string as yellow colored if ANSI escapes are supported.
- * @param {string} arbitraryString
+ * @param {string} text
  * @returns {string}
  */
-function yellow(arbitraryString) {
-    return supports_ansi_1.default ? cli_color_1.default.yellow(arbitraryString) : arbitraryString;
+function yellow(text) {
+    return supports_ansi_1.default ? cli_color_1.default.yellow(text) : text;
 }
 exports.yellow = yellow;
