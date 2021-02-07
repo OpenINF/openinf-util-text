@@ -26,85 +26,85 @@ export const UnicodeEscapes = {
 
 /**
  * Returns the supplied string as blue colored if ANSI escapes are supported.
- * @param {string} arbitraryString
+ * @param {string} text
  * @returns {string}
  */
-export function blueify(arbitraryString:string):string {
-  return supportsAnsi ? clc.blue(arbitraryString) : arbitraryString;
+export function blueify(text:string):string {
+  return supportsAnsi ? clc.blue(text) : text;
 }
 
 /**
  * Returns the supplied string as curly quoted if Unicode is supported.
- * @param {string} arbitraryStr
+ * @param {string} text
  * @returns {string}
  */
-export function curlyQuote(arbitraryStr:string):string {
+export function curlyQuote(text:string):string {
   return format(
     '%s%s%s',
     hasUnicode() ? UnicodeEscapes.leftDoubleQuotes : "\"",
-    arbitraryStr,
+    text,
     hasUnicode() ? UnicodeEscapes.rightDoubleQuotes : "\"",
   );
 }
 
 /**
  * Returns the supplied string as ellipsified if Unicode is supported.
- * @param {string} arbitraryStr
+ * @param {string} text
  * @returns {string}
  */
-export function ellipsify(arbitraryStr:string):string {
-  return format('%s%s', arbitraryStr,
+export function ellipsify(text:string):string {
+  return format('%s%s', text,
     hasUnicode() ? UnicodeEscapes.ellipsis : '...');
 }
 
 /**
  * Returns the supplied string as italicized if ANSI escapes are supported.
- * @param {string} arbitraryStr
+ * @param {string} text
  * @returns {string}
  */
-export function italicize(arbitraryStr:string):string {
-  return supportsAnsi ? clc.italic(arbitraryStr) : arbitraryStr;
+export function italicize(text:string):string {
+  return supportsAnsi ? clc.italic(text) : text;
 }
 
 /**
  * Processes the supplied string by transforming any Markdown backtick code
  * spans (begining and ending with a single backtack) into HTML code elements.
- * @param {string} arbitraryStr
+ * @param {string} text
  * @returns {string}
  */
-export function mdCodeSpans2html(arbitraryStr:string):string {
+export function mdCodeSpans2html(text:string):string {
   const codeSpanRegex = new RegExp(/(`+)([^`]|[^`][\s\S]*?[^`])\1(?!`)/ig);
 
-  let span = codeSpanRegex.exec(arbitraryStr)![2];
+  let span = codeSpanRegex.exec(text)![2];
   span = span.replace(/^[ ]*/, ''); // leading whitespace
   span = span.replace(/[ ]*$/, ''); // trailing whitespace
 
-  return arbitraryStr.replace(codeSpanRegex, `<code>${ span }</code>`);
+  return text.replace(codeSpanRegex, `<code>${ span }</code>`);
 }
 
 /**
  * Returns the supplied string as red colored if ANSI escapes are supported.
- * @param {string} arbitraryString
+ * @param {string} text
  * @returns {string}
  */
-export function redden(arbitraryString:string):string {
-  return supportsAnsi ? clc.red(arbitraryString) : arbitraryString;
+export function redden(text:string):string {
+  return supportsAnsi ? clc.red(text) : text;
 }
 
 /**
  * Returns the supplied string as underlined if ANSI escapes are supported.
- * @param {string} arbitraryStr
+ * @param {string} text
  * @returns {string}
  */
-export function underline(arbitraryStr:string):string {
-  return supportsAnsi ? clc.underline(arbitraryStr) : arbitraryStr;
+export function underline(text:string):string {
+  return supportsAnsi ? clc.underline(text) : text;
 }
 
 /**
  * Returns the supplied string as yellow colored if ANSI escapes are supported.
- * @param {string} arbitraryString
+ * @param {string} text
  * @returns {string}
  */
-export function yellow(arbitraryString:string):string {
-  return supportsAnsi ? clc.yellow(arbitraryString) : arbitraryString;
+export function yellow(text:string):string {
+  return supportsAnsi ? clc.yellow(text) : text;
 }
