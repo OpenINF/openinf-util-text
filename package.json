@@ -1,6 +1,6 @@
 {
   "name": "@openinf/util-text",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Essential cross-platform terminal-friendly text utilities",
   "main": "./index.js",
   "types": "./index.d.ts",
