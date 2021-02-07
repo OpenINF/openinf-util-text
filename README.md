@@ -54,29 +54,29 @@ console.log(blueify(ellipsify('Deserializing database tables')));
 ## Functions
 
 <dl>
-<dt><a href="#blueify">blueify(arbitraryString)</a> ⇒ <code>string</code></dt>
+<dt><a href="#blueify">blueify(text)</a> ⇒ <code>string</code></dt>
 <dd><p>Returns the supplied string as blue colored if ANSI escapes are supported.</p>
 </dd>
-<dt><a href="#curlyQuote">curlyQuote(arbitraryStr)</a> ⇒ <code>string</code></dt>
+<dt><a href="#curlyQuote">curlyQuote(text)</a> ⇒ <code>string</code></dt>
 <dd><p>Returns the supplied string as curly quoted if Unicode is supported.</p>
 </dd>
-<dt><a href="#ellipsify">ellipsify(arbitraryStr)</a> ⇒ <code>string</code></dt>
+<dt><a href="#ellipsify">ellipsify(text)</a> ⇒ <code>string</code></dt>
 <dd><p>Returns the supplied string as ellipsified if Unicode is supported.</p>
 </dd>
-<dt><a href="#italicize">italicize(arbitraryStr)</a> ⇒ <code>string</code></dt>
+<dt><a href="#italicize">italicize(text)</a> ⇒ <code>string</code></dt>
 <dd><p>Returns the supplied string as italicized if ANSI escapes are supported.</p>
 </dd>
-<dt><a href="#mdCodeSpans2html">mdCodeSpans2html(arbitraryStr)</a> ⇒ <code>string</code></dt>
+<dt><a href="#mdCodeSpans2html">mdCodeSpans2html(text)</a> ⇒ <code>string</code></dt>
 <dd><p>Processes the supplied string by transforming any Markdown backtick code
 spans (begining and ending with a single backtack) into HTML code elements.</p>
 </dd>
-<dt><a href="#redden">redden(arbitraryString)</a> ⇒ <code>string</code></dt>
+<dt><a href="#redden">redden(text)</a> ⇒ <code>string</code></dt>
 <dd><p>Returns the supplied string as red colored if ANSI escapes are supported.</p>
 </dd>
-<dt><a href="#underline">underline(arbitraryStr)</a> ⇒ <code>string</code></dt>
+<dt><a href="#underline">underline(text)</a> ⇒ <code>string</code></dt>
 <dd><p>Returns the supplied string as underlined if ANSI escapes are supported.</p>
 </dd>
-<dt><a href="#yellow">yellow(arbitraryString)</a> ⇒ <code>string</code></dt>
+<dt><a href="#yellow">yellow(text)</a> ⇒ <code>string</code></dt>
 <dd><p>Returns the supplied string as yellow colored if ANSI escapes are supported.</p>
 </dd>
 </dl>
@@ -99,51 +99,51 @@ spans (begining and ending with a single backtack) into HTML code elements.</p>
 
 <a name="blueify"></a>
 
-## blueify(arbitraryString) ⇒ <code>string</code>
+## blueify(text) ⇒ <code>string</code>
 Returns the supplied string as blue colored if ANSI escapes are supported.
 
 **Kind**: global function  
 
 | Param | Type |
 | --- | --- |
-| arbitraryString | <code>string</code> | 
+| text | <code>string</code> | 
 
 <a name="curlyQuote"></a>
 
-## curlyQuote(arbitraryStr) ⇒ <code>string</code>
+## curlyQuote(text) ⇒ <code>string</code>
 Returns the supplied string as curly quoted if Unicode is supported.
 
 **Kind**: global function  
 
 | Param | Type |
 | --- | --- |
-| arbitraryStr | <code>string</code> | 
+| text | <code>string</code> | 
 
 <a name="ellipsify"></a>
 
-## ellipsify(arbitraryStr) ⇒ <code>string</code>
+## ellipsify(text) ⇒ <code>string</code>
 Returns the supplied string as ellipsified if Unicode is supported.
 
 **Kind**: global function  
 
 | Param | Type |
 | --- | --- |
-| arbitraryStr | <code>string</code> | 
+| text | <code>string</code> | 
 
 <a name="italicize"></a>
 
-## italicize(arbitraryStr) ⇒ <code>string</code>
+## italicize(text) ⇒ <code>string</code>
 Returns the supplied string as italicized if ANSI escapes are supported.
 
 **Kind**: global function  
 
 | Param | Type |
 | --- | --- |
-| arbitraryStr | <code>string</code> | 
+| text | <code>string</code> | 
 
 <a name="mdCodeSpans2html"></a>
 
-## mdCodeSpans2html(arbitraryStr) ⇒ <code>string</code>
+## mdCodeSpans2html(text) ⇒ <code>string</code>
 Processes the supplied string by transforming any Markdown backtick code
 spans (begining and ending with a single backtack) into HTML code elements.
 
@@ -151,40 +151,40 @@ spans (begining and ending with a single backtack) into HTML code elements.
 
 | Param | Type |
 | --- | --- |
-| arbitraryStr | <code>string</code> | 
+| text | <code>string</code> | 
 
 <a name="redden"></a>
 
-## redden(arbitraryString) ⇒ <code>string</code>
+## redden(text) ⇒ <code>string</code>
 Returns the supplied string as red colored if ANSI escapes are supported.
 
 **Kind**: global function  
 
 | Param | Type |
 | --- | --- |
-| arbitraryString | <code>string</code> | 
+| text | <code>string</code> | 
 
 <a name="underline"></a>
 
-## underline(arbitraryStr) ⇒ <code>string</code>
+## underline(text) ⇒ <code>string</code>
 Returns the supplied string as underlined if ANSI escapes are supported.
 
 **Kind**: global function  
 
 | Param | Type |
 | --- | --- |
-| arbitraryStr | <code>string</code> | 
+| text | <code>string</code> | 
 
 <a name="yellow"></a>
 
-## yellow(arbitraryString) ⇒ <code>string</code>
+## yellow(text) ⇒ <code>string</code>
 Returns the supplied string as yellow colored if ANSI escapes are supported.
 
 **Kind**: global function  
 
 | Param | Type |
 | --- | --- |
-| arbitraryString | <code>string</code> | 
+| text | <code>string</code> | 
 
 
 <br />
