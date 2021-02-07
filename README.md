@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/@openinf/util-text"><img src="https://img.shields.io/npm/v/@openinf/util-text?style=plastic" alt="view on npm" /></a>
   <img src="https://img.shields.io/github/languages/top/openinf/util-text?color=blue&style=plastic" />
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/github/license/openinf/openinf.github.io?color=blue&style=plastic" alt="License: MIT" /></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/github/license/openinf/util-text?color=blue&style=plastic" alt="License: MIT" /></a>
 </p>
 
 <br />
@@ -51,13 +51,6 @@ console.log(blueify(ellipsify('Deserializing database tables')));
 
 <br />
 
-## Members
-
-<dl>
-<dt><a href="#__importDefault">__importDefault</a></dt>
-<dd></dd>
-</dl>
-
 ## Functions
 
 <dl>
@@ -88,14 +81,6 @@ spans (begining and ending with a single backtack) into HTML code elements.</p>
 </dd>
 </dl>
 
-<a name="__importDefault"></a>
-
-## \_\_importDefault
-**Kind**: global variable  
-**License**: Copyright OpenINF All Rights Reserved.
-
-Use of this source code is governed by an MIT-style license that can be
-found in the LICENSE file at https://open.inf.is/license  
 <a name="UnicodeEscapes"></a>
 
 ## UnicodeEscapes : <code>enum</code>
@@ -208,4 +193,5 @@ Returns the supplied string as yellow colored if ANSI escapes are supported.
 
 <br />
 
-&copy; OpenINF
+<p align="center">&copy; The OpenINF Authors</center></p>
+<p align="center"><img height="32px" width="32px" src="https://raw.githubusercontent.com/openinf/openinf.github.io/live/logo.svg" /></p>
