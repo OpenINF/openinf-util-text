@@ -1,3 +1,5 @@
+// Copyright 2018-2021 The OpenINF Authors. All rights reserved. MIT license.
+
 const test = require('tape');
 const { mdCodeSpans2html } = require('./index.js');
 
