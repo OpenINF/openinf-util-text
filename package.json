@@ -24,7 +24,7 @@
     "@types/cli-color": "2.0.1",
     "@types/node": "16.11.7",
     "jsdoc-to-markdown": "7.1.0",
-    "tape": "5.3.1",
+    "tape": "5.3.2",
     "typescript": "4.4.4"
   },
   "dependencies": {
