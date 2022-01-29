@@ -23,7 +23,7 @@
   "devDependencies": {
     "@types/cli-color": "2.0.2",
     "@types/node": "16.11.19",
-    "jsdoc-to-markdown": "7.1.0",
+    "jsdoc-to-markdown": "7.1.1",
     "tape": "5.4.0",
     "typescript": "4.5.4"
   },
