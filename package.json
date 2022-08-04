@@ -10,15 +10,10 @@
     "compile-doc": "jsdoc2md --template README.hbs --files index.js > ./README.md",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/openinf/util-text.git"
-  },
+  "repository": "openinf/util-text",
   "author": "The OpenINF Authors",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/openinf/util-text/issues"
-  },
+  "bugs": "https://github.com/openinf/util-text/issues",
   "homepage": "https://github.com/openinf/util-text#readme",
   "devDependencies": {
     "@types/cli-color": "2.0.2",
