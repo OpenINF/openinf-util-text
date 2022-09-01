@@ -224,7 +224,7 @@ Returns the supplied string as yellow colored if ANSI escapes are supported.
 <!-- PRESERVE LINK DEFINITION LABEL CASE - START -->
 
 [deepscan-badge]: https://badgen.net/deepscan/grade/team/18447/project/21803/branch/634014?icon=deepscan 'DeepScan grade'
-[deepscan-url]: https://deepscan.io/dashboard#view=project&tid=18447&pid=21801&bid=634012 'DeepScan grade'
+[deepscan-url]: https://deepscan.io/dashboard#view=project&tid=18447&pid=21803&bid=634014 'DeepScan grade'
 [deepsource-badge]: https://deepsource.io/gh/openinf/util-text.svg/?label=active+issues&show_trend=true&token=mqWR7codCZlrSDoAw8zKJZCF
 [deepsource-url]: https://deepsource.io/gh/openinf/util-text/?ref=repository-badge 'Active Issues: DeepSource'
 [conventional-commits-badge]: https://img.shields.io/badge/commit%20style-Conventional-%23fa6673?logoColor=white&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMCAzMCI+PHBhdGggc3R5bGU9ImZpbGw6ICNGRkYiIGQ9Ik0xNSwyQTEzLDEzLDAsMSwxLDIsMTUsMTMsMTMsMCwwLDEsMTUsMm0wLTJBMTUsMTUsMCwxLDAsMzAsMTUsMTUsMTUsMCwwLDAsMTUsMFoiLz48L3N2Zz4K 'Commit Style: Conventional Commits'
