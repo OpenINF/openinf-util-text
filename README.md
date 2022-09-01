@@ -223,7 +223,7 @@ Returns the supplied string as yellow colored if ANSI escapes are supported.
 <!-- prettier-ignore-start -->
 <!-- PRESERVE LINK DEFINITION LABEL CASE - START -->
 
-[deepscan-badge]: https://badgen.net/deepscan/grade/team/18447/project/21801/branch/634012?icon=deepscan 'DeepScan grade'
+[deepscan-badge]: https://badgen.net/deepscan/grade/team/18447/project/21803/branch/634014?icon=deepscan 'DeepScan grade'
 [deepscan-url]: https://deepscan.io/dashboard#view=project&tid=18447&pid=21801&bid=634012 'DeepScan grade'
 [deepsource-badge]: https://deepsource.io/gh/openinf/util-text.svg/?label=active+issues&show_trend=true&token=mqWR7codCZlrSDoAw8zKJZCF
 [deepsource-url]: https://deepsource.io/gh/openinf/util-text/?ref=repository-badge 'Active Issues: DeepSource'
