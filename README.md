@@ -202,13 +202,21 @@ Returns the supplied string as yellow colored if ANSI escapes are supported.
 | text | <code>string</code> | 
 
 
-<br />
+<br /><br />
 
 ---
 
 <br />
 
 <div align="center">
+
+## Show Your Support
+
+<!-- Give a ⭐️ if this project helped you! -->
+
+If you like the project, [give it a star ⭐️], it will be a great encouragement to us.
+
+<br /><br />
 
 &copy; The OpenINF Authors
 
@@ -222,6 +230,8 @@ Returns the supplied string as yellow colored if ANSI escapes are supported.
 
 <!-- prettier-ignore-start -->
 <!-- PRESERVE LINK DEFINITION LABEL CASE - START -->
+
+[give it a star ⭐️]: https://github.com/openinf/util-text/stargazers
 
 [deepscan-badge]: https://badgen.net/deepscan/grade/team/18447/project/21803/branch/634014?icon=deepscan 'DeepScan grade'
 [deepscan-url]: https://deepscan.io/dashboard#view=project&tid=18447&pid=21803&bid=634014 'DeepScan grade'
