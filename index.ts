@@ -5,7 +5,7 @@
 // -----------------------------------------------------------------------------
 
 import { format } from 'util';
-import * as colorette from "colorette";
+import * as colorette from 'colorette';
 import hasUnicode from 'has-unicode';
 import supportsAnsi from 'supports-ansi';
 
