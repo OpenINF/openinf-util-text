@@ -9,7 +9,7 @@ exports.yellow = exports.underline = exports.redden = exports.mdCodeSpans2html =
 // Requirements
 // -----------------------------------------------------------------------------
 const util_1 = require("util");
-const cli_color_1 = __importDefault(require("cli-color"));
+const colorette_1 = require("colorette");
 const has_unicode_1 = __importDefault(require("has-unicode"));
 const supports_ansi_1 = __importDefault(require("supports-ansi"));
 /** @enum {string} */
@@ -31,7 +31,7 @@ exports.UnicodeEscapes = {
  * @returns {string}
  */
 function blueify(text) {
-    return supports_ansi_1.default ? cli_color_1.default.blue(text) : text;
+    return supports_ansi_1.default ? (0, colorette_1.blue)(text) : text;
 }
 exports.blueify = blueify;
 /**
@@ -58,7 +58,7 @@ exports.ellipsify = ellipsify;
  * @returns {string}
  */
 function italicize(text) {
-    return supports_ansi_1.default ? cli_color_1.default.italic(text) : text;
+    return supports_ansi_1.default ? (0, colorette_1.italic)(text) : text;
 }
 exports.italicize = italicize;
 /**
@@ -81,7 +81,7 @@ exports.mdCodeSpans2html = mdCodeSpans2html;
  * @returns {string}
  */
 function redden(text) {
-    return supports_ansi_1.default ? cli_color_1.default.red(text) : text;
+    return supports_ansi_1.default ? (0, colorette_1.red)(text) : text;
 }
 exports.redden = redden;
 /**
@@ -90,7 +90,7 @@ exports.redden = redden;
  * @returns {string}
  */
 function underline(text) {
-    return supports_ansi_1.default ? cli_color_1.default.underline(text) : text;
+    return supports_ansi_1.default ? (0, colorette_1.underline)(text) : text;
 }
 exports.underline = underline;
 /**
@@ -99,6 +99,6 @@ exports.underline = underline;
  * @returns {string}
  */
 function yellow(text) {
-    return supports_ansi_1.default ? cli_color_1.default.yellow(text) : text;
+    return supports_ansi_1.default ? (0, colorette_1.yellow)(text) : text;
 }
 exports.yellow = yellow;
