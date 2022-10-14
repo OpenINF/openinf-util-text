@@ -10,7 +10,7 @@ import {
   italic as coloretteItalic,
   red as coloretteRed,
   underline as coloretteUnderline,
-  yellow as coloretteYellow
+  yellow as coloretteYellow,
 } from 'colorette';
 import hasUnicode from 'has-unicode';
 import supportsAnsi from 'supports-ansi';
