@@ -11,7 +11,7 @@ import {
   red as coloretteRed,
   underline as coloretteUnderline,
   yellow as coloretteYellow
-} from "colorette";
+} from 'colorette';
 import hasUnicode from 'has-unicode';
 import supportsAnsi from 'supports-ansi';
 
