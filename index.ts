@@ -5,7 +5,7 @@
 // -----------------------------------------------------------------------------
 
 import { format } from 'util';
-import clc from 'cli-color';
+import * as colorette from "colorette";
 import hasUnicode from 'has-unicode';
 import supportsAnsi from 'supports-ansi';
 
@@ -30,7 +30,7 @@ export const UnicodeEscapes = {
  * @returns {string}
  */
 export function blueify(text:string):string {
-  return supportsAnsi ? clc.blue(text) : text;
+  return supportsAnsi ? colorette.blue(text) : text;
 }
 
 /**
@@ -63,7 +63,7 @@ export function ellipsify(text:string):string {
  * @returns {string}
  */
 export function italicize(text:string):string {
-  return supportsAnsi ? clc.italic(text) : text;
+  return supportsAnsi ? colorette.italic(text) : text;
 }
 
 /**
@@ -88,7 +88,7 @@ export function mdCodeSpans2html(text:string):string {
  * @returns {string}
  */
 export function redden(text:string):string {
-  return supportsAnsi ? clc.red(text) : text;
+  return supportsAnsi ? colorette.red(text) : text;
 }
 
 /**
@@ -97,7 +97,7 @@ export function redden(text:string):string {
  * @returns {string}
  */
 export function underline(text:string):string {
-  return supportsAnsi ? clc.underline(text) : text;
+  return supportsAnsi ? colorette.underline(text) : text;
 }
 
 /**
@@ -106,5 +106,5 @@ export function underline(text:string):string {
  * @returns {string}
  */
 export function yellow(text:string):string {
-  return supportsAnsi ? clc.yellow(text) : text;
+  return supportsAnsi ? colorette.yellow(text) : text;
 }

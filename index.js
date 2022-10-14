@@ -1,5 +1,28 @@
 "use strict";
 // Copyright 2021 The OpenINF Authors. All rights reserved. MIT license.
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
@@ -9,7 +32,7 @@ exports.yellow = exports.underline = exports.redden = exports.mdCodeSpans2html =
 // Requirements
 // -----------------------------------------------------------------------------
 const util_1 = require("util");
-const cli_color_1 = __importDefault(require("cli-color"));
+const colorette = __importStar(require("colorette"));
 const has_unicode_1 = __importDefault(require("has-unicode"));
 const supports_ansi_1 = __importDefault(require("supports-ansi"));
 /** @enum {string} */
@@ -31,7 +54,7 @@ exports.UnicodeEscapes = {
  * @returns {string}
  */
 function blueify(text) {
-    return supports_ansi_1.default ? cli_color_1.default.blue(text) : text;
+    return supports_ansi_1.default ? colorette.blue(text) : text;
 }
 exports.blueify = blueify;
 /**
@@ -58,7 +81,7 @@ exports.ellipsify = ellipsify;
  * @returns {string}
  */
 function italicize(text) {
-    return supports_ansi_1.default ? cli_color_1.default.italic(text) : text;
+    return supports_ansi_1.default ? colorette.italic(text) : text;
 }
 exports.italicize = italicize;
 /**
@@ -81,7 +104,7 @@ exports.mdCodeSpans2html = mdCodeSpans2html;
  * @returns {string}
  */
 function redden(text) {
-    return supports_ansi_1.default ? cli_color_1.default.red(text) : text;
+    return supports_ansi_1.default ? colorette.red(text) : text;
 }
 exports.redden = redden;
 /**
@@ -90,7 +113,7 @@ exports.redden = redden;
  * @returns {string}
  */
 function underline(text) {
-    return supports_ansi_1.default ? cli_color_1.default.underline(text) : text;
+    return supports_ansi_1.default ? colorette.underline(text) : text;
 }
 exports.underline = underline;
 /**
@@ -99,6 +122,6 @@ exports.underline = underline;
  * @returns {string}
  */
 function yellow(text) {
-    return supports_ansi_1.default ? cli_color_1.default.yellow(text) : text;
+    return supports_ansi_1.default ? colorette.yellow(text) : text;
 }
 exports.yellow = yellow;
