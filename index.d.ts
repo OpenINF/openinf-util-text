@@ -15,6 +15,12 @@ export declare const UnicodeEscapes: {
  */
 export declare function blueify(text: string): string;
 /**
+ * Returns the supplied string as cyan colored if ANSI escapes are supported.
+ * @param {string} text
+ * @returns {string}
+ */
+export declare function cyanify(text: string): string;
+/**
  * Returns the supplied string as curly quoted if Unicode is supported.
  * @param {string} text
  * @returns {string}

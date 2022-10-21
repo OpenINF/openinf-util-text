@@ -7,6 +7,7 @@
 import { format } from 'util';
 import {
   blue as coloretteBlue,
+  cyan as coloretteCyan,
   italic as coloretteItalic,
   red as coloretteRed,
   underline as coloretteUnderline,
@@ -37,6 +38,15 @@ export const UnicodeEscapes = {
  */
 export function blueify(text:string):string {
   return supportsAnsi ? coloretteBlue(text) : text;
+}
+
+/**
+ * Returns the supplied string as cyan colored if ANSI escapes are supported.
+ * @param {string} text
+ * @returns {string}
+ */
+export function cyanify(text:string):string {
+  return supportsAnsi ? coloretteCyan(text) : text;
 }
 
 /**
