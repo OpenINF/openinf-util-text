@@ -1,7 +1,7 @@
 // Copyright 2018-2021 The OpenINF Authors. All rights reserved. MIT license.
 
 const test = require("tape");
-const { mdCodeSpans2html } = require("./index.js");
+const { mdCodeSpans2html } = require("./lib/index.js");
 
 // @see
 // https://github.com/KyleGobel/MarkdownSharp-GithubCodeBlocks/blob/0ba86dc7ea58ab9ad6b0dc663c3def7558f8f17e/MarkdownSharp.cs#L1352
