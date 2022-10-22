@@ -23,9 +23,9 @@ test(
   "should translate single backtick delimiters of Markdown `code spans` " +
     "into HTML code tags",
   (t) => {
-    let textIn =
+    const textIn =
       "Top-level `await` enables modules to act as big async functions.";
-    let textOut =
+    const textOut =
       "Top-level <code>await</code> enables modules to act as big async functions.";
     t.strictEquals(mdCodeSpans2html(textIn), textOut);
     t.end();
