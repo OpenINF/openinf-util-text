@@ -3,7 +3,7 @@
   "version": "1.1.2",
   "description": "Essential cross-platform terminal-friendly text utilities",
   "engines": {
-    "node": "^14.17.0 || ^16.13.0 || ^18.12.0"
+    "node": "^18.0.0"
   },
   "main": "./lib/index.js",
   "types": "./types/index.d.ts",
