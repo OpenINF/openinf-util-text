@@ -10,6 +10,7 @@
     "terminal",
     "text",
     "tty",
+    "unicode",
     "xterm"
   ],
   "engines": {
