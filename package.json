@@ -2,6 +2,17 @@
   "name": "@openinf/util-text",
   "version": "1.1.2",
   "description": "Essential cross-platform terminal-friendly text utilities",
+  "keywords": [
+    "ansi",
+    "cli",
+    "console",
+    "shell",
+    "terminal",
+    "text",
+    "tty",
+    "unicode",
+    "xterm"
+  ],
   "engines": {
     "node": "^14.17.0 || ^16.13.0 || ^18.12.0"
   },
