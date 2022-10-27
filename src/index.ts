@@ -91,7 +91,7 @@ export function italicize(text:string):string {
 export function mdCodeSpans2html(text:string):string {
   const codeSpanRegex = new RegExp(/(`+)([^`]|[^`][\s\S]*?[^`])\1(?!`)/ig);
 
-  let span = codeSpanRegex.exec(text)![2];
+  let span = codeSpanRegex.exec(text)?.[2] || '';
   span = span.replace(/^[ ]*/, ''); // leading whitespace
   span = span.replace(/[ ]*$/, ''); // trailing whitespace
 
