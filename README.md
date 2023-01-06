@@ -235,8 +235,8 @@ If you like the project, [give it a star ⭐️], it will be a great encourageme
 
 [deepscan-badge]: https://badgen.net/deepscan/grade/team/18447/project/21803/branch/634014?icon=deepscan 'DeepScan grade'
 [deepscan-url]: https://deepscan.io/dashboard#view=project&tid=18447&pid=21803&bid=634014 'DeepScan grade'
-[deepsource-badge]: https://deepsource.io/gh/openinf/util-text.svg/?label=active+issues&show_trend=true&token=mqWR7codCZlrSDoAw8zKJZCF
-[deepsource-url]: https://deepsource.io/gh/openinf/util-text/?ref=repository-badge 'Active Issues: DeepSource'
+[deepsource-badge]: https://deepsource.io/gh/openinf/openinf-util-text.svg/?label=active+issues&show_trend=true&token=mqWR7codCZlrSDoAw8zKJZCF
+[deepsource-url]: https://deepsource.io/gh/openinf/openinf-util-text/?ref=repository-badge 'Active Issues: DeepSource'
 [conventional-commits-badge]: https://img.shields.io/badge/commit%20style-Conventional-%23fa6673?logoColor=white&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMCAzMCI+PHBhdGggc3R5bGU9ImZpbGw6ICNGRkYiIGQ9Ik0xNSwyQTEzLDEzLDAsMSwxLDIsMTUsMTMsMTMsMCwwLDEsMTUsMm0wLTJBMTUsMTUsMCwxLDAsMzAsMTUsMTUsMTUsMCwwLDAsMTUsMFoiLz48L3N2Zz4K 'Commit Style: Conventional Commits'
 [conventional-commits-url]: https://www.conventionalcommits.org 'Commit Style: Conventional Commits'
 [fossa-badge]: https://app.fossa.com/api/projects/git%2Bgithub.com%2Fopeninf%2Futil-text.svg?type=small 'FOSSA Status'
