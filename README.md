@@ -96,7 +96,7 @@ npm i @openinf/util-text
 information.</sup>
 
 ```shell
-pnpm i @openinf/util-text
+pnpm add @openinf/util-text
 ```
 
 **Using the Yarn 1 CLI (Classic)**
