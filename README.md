@@ -6,14 +6,14 @@
 
 Essential cross-platform terminal-friendly text utilities
 
-<br /><br />
+<br />
 
 [!['View on npm'][npm-badge--shields]][npm-badge-url]
 [!['License: MIT/Apache-2.0'][license-badge--shields]][license-badge-url]
 
 </div>
 
-<br /><br />
+<br />
 
 _The high-level goal of `@openinf/util-text` is to serve as a Node.js package
 containing **essential cross-platform text utilities** that degrade gracefully
@@ -57,7 +57,7 @@ project in continuous development, omissions and errors may exist, for which
 
 </div></details>
 
-<br /><br />
+<br />
 
 <div align="center">
 
@@ -82,7 +82,11 @@ project in continuous development, omissions and errors may exist, for which
 
 <br /><br />
 
-### Installation
+---
+
+<br /><br />
+
+#### Installation
 
 `@openinf/util-text` runs on
 [supported versions of Node.js](#platform--node-js-lts) and is available via
@@ -280,8 +284,6 @@ Returns the supplied string as yellow colored if ANSI escapes are supported.
 
 ### Contributing
 
-<br /><br />
-
 Pull requests are welcome. For major changes, please open an issue first to
 discuss what you would like to change.
 
@@ -300,15 +302,30 @@ The [SPDX](https://spdx.dev) license identifier for this project is `MIT OR Apac
 
 <br /><br />
 
-<div align=center>
+<div align="center">
+
+### Show Your Support
+
+<!-- Give a ⭐️ if this project helped you! -->
+
+If you like the project or want to bookmark it, [give it a star ⭐️]; it will
+greatly encourage us.
+
+<br /><br />
+
+&copy; The OpenINF Authors
+
+<br />
 
 <a title="The OpenINF website" href="https://open.inf.is" rel="author">
-  <img alt="The OpenINF logo" height="32px" width="32px" src="https://raw.githubusercontent.com/openinf/openinf.github.io/live/logo.svg?sanitize=true" /></a>
+  <img alt="The OpenINF logo" height="32px" width="32px" src="https://raw.githubusercontent.com/openinf/openinf.github.io/live/logo.svg?sanitize=true" />
+</a>
 
 </div>
 
 [conventional-commits-badge]: https://img.shields.io/badge/commit%20style-Conventional-%23fa6673?logoColor=white&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMCAzMCI+PHBhdGggc3R5bGU9ImZpbGw6ICNGRkYiIGQ9Ik0xNSwyQTEzLDEzLDAsMSwxLDIsMTUsMTMsMTMsMCwwLDEsMTUsMm0wLTJBMTUsMTUsMCwxLDAsMzAsMTUsMTUsMTUsMCwwLDAsMTUsMFoiLz48L3N2Zz4K 'Commit Style: Conventional Commits'
 [conventional-commits-url]: https://www.conventionalcommits.org 'Commit Style: Conventional Commits'
+[give it a star ⭐️]: https://github.com/OpenINF/openinf-util-text/stargazers
 [license-badge--shields]: https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg?logo=github 'License: MIT/Apache 2.0'
 [license-badge-url]: #license 'License: MIT/Apache 2.0'
 [matrix-badge--shields]: https://img.shields.io/badge/matrix-join%20chat-%2346BC99?logo=matrix 'Chat on Matrix'
