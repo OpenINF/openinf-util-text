@@ -19,7 +19,7 @@ _The high-level goal of `@openinf/util-text` is to serve as a Node.js package
 containing **essential cross-platform text utilities** that degrade gracefully
 when used in terminals lacking feature support. As is the case with any software
 project in continuous development, omissions and errors may exist, for which
-contributions are welcome._
+[contributions are welcome](#contributing)._
 
 <br />
 
@@ -73,7 +73,16 @@ contributions are welcome._
 
 <br /><br />
 
-#### Installation
+### Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+<br /><br />
+
+### Installation
 
 `@openinf/util-text` runs on
 [supported versions of Node.js](#platform--node-js-lts) and is available via
@@ -109,7 +118,7 @@ for more information.</sup>
 yarn add @openinf/util-text
 ```
 
-#### Usage
+### Usage
 
 To get started using the text utils provided by `@openinf/util-text`, all
 that needs to be done is either import/require (depending on the module format)
@@ -128,7 +137,7 @@ console.log(blueify(ellipsify('Deserializing database tables')));
 
 <br /><br />
 
-#### Functions
+### Functions
 
 <dl>
 <dt><a href="#blueify">blueify(text)</a> ⇒ <code>string</code></dt>
@@ -160,7 +169,7 @@ spans (begining and ending with a single backtack) into HTML code elements.</p>
 
 <a name="UnicodeEscapes"></a>
 
-#### UnicodeEscapes : <code>enum</code>
+##### UnicodeEscapes : <code>enum</code>
 **Kind**: global enum  
 **Properties**
 
@@ -176,7 +185,7 @@ spans (begining and ending with a single backtack) into HTML code elements.</p>
 
 <a name="blueify"></a>
 
-#### blueify(text) ⇒ <code>string</code>
+##### blueify(text) ⇒ <code>string</code>
 Returns the supplied string as blue colored if ANSI escapes are supported.
 
 **Kind**: global function  
@@ -187,7 +196,7 @@ Returns the supplied string as blue colored if ANSI escapes are supported.
 
 <a name="curlyQuote"></a>
 
-#### curlyQuote(text) ⇒ <code>string</code>
+##### curlyQuote(text) ⇒ <code>string</code>
 Returns the supplied string as curly quoted if Unicode is supported.
 
 **Kind**: global function  
@@ -198,7 +207,7 @@ Returns the supplied string as curly quoted if Unicode is supported.
 
 <a name="ellipsify"></a>
 
-#### ellipsify(text) ⇒ <code>string</code>
+##### ellipsify(text) ⇒ <code>string</code>
 Returns the supplied string as ellipsified if Unicode is supported.
 
 **Kind**: global function  
@@ -209,7 +218,7 @@ Returns the supplied string as ellipsified if Unicode is supported.
 
 <a name="italicize"></a>
 
-#### italicize(text) ⇒ <code>string</code>
+##### italicize(text) ⇒ <code>string</code>
 Returns the supplied string as italicized if ANSI escapes are supported.
 
 **Kind**: global function  
@@ -220,7 +229,7 @@ Returns the supplied string as italicized if ANSI escapes are supported.
 
 <a name="mdCodeSpans2html"></a>
 
-#### mdCodeSpans2html(text) ⇒ <code>string</code>
+##### mdCodeSpans2html(text) ⇒ <code>string</code>
 Processes the supplied string by transforming any Markdown backtick code
 spans (begining and ending with a single backtack) into HTML code elements.
 
@@ -232,7 +241,7 @@ spans (begining and ending with a single backtack) into HTML code elements.
 
 <a name="redden"></a>
 
-#### redden(text) ⇒ <code>string</code>
+##### redden(text) ⇒ <code>string</code>
 Returns the supplied string as red colored if ANSI escapes are supported.
 
 **Kind**: global function  
@@ -243,7 +252,7 @@ Returns the supplied string as red colored if ANSI escapes are supported.
 
 <a name="underline"></a>
 
-#### underline(text) ⇒ <code>string</code>
+##### underline(text) ⇒ <code>string</code>
 Returns the supplied string as underlined if ANSI escapes are supported.
 
 **Kind**: global function  
@@ -254,7 +263,7 @@ Returns the supplied string as underlined if ANSI escapes are supported.
 
 <a name="yellow"></a>
 
-#### yellow(text) ⇒ <code>string</code>
+##### yellow(text) ⇒ <code>string</code>
 Returns the supplied string as yellow colored if ANSI escapes are supported.
 
 **Kind**: global function  
@@ -270,26 +279,27 @@ Returns the supplied string as yellow colored if ANSI escapes are supported.
 
 <br /><br />
 
-#### Contributing
+### Contributing
 
-Unless you explicitly state otherwise, any contribution intentionally submitted
-for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
-dual licensed as below, without any additional terms or conditions.
+<br />
 
-<br /><br />
+Pull requests are welcome. For major changes, please open an issue first to
+discuss what you would like to change.
 
-#### License
+<br />
+
+### License
 
 This project is licensed under either of
 
-- [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0) ([`LICENSE-APACHE`](LICENSE-APACHE))
-- [MIT license](https://opensource.org/licenses/MIT) ([`LICENSE-MIT`](LICENSE-MIT))
+- [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
+- [MIT license](https://opensource.org/licenses/MIT) 
 
 at your option.
 
 The [SPDX](https://spdx.dev) license identifier for this project is `MIT OR Apache-2.0`.
 
-<br /><br />
+<br />
 
 <div align=center>
 
@@ -300,7 +310,6 @@ The [SPDX](https://spdx.dev) license identifier for this project is `MIT OR Apac
 
 [conventional-commits-badge]: https://img.shields.io/badge/commit%20style-Conventional-%23fa6673?logoColor=white&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMCAzMCI+PHBhdGggc3R5bGU9ImZpbGw6ICNGRkYiIGQ9Ik0xNSwyQTEzLDEzLDAsMSwxLDIsMTUsMTMsMTMsMCwwLDEsMTUsMm0wLTJBMTUsMTUsMCwxLDAsMzAsMTUsMTUsMTUsMCwwLDAsMTUsMFoiLz48L3N2Zz4K 'Commit Style: Conventional Commits'
 [conventional-commits-url]: https://www.conventionalcommits.org 'Commit Style: Conventional Commits'
-[give it a star ⭐️]: https://github.com/OpenINF/openinf-util-text/stargazers
 [license-badge--shields]: https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg?logo=github 'License: MIT/Apache 2.0'
 [license-badge-url]: #license 'License: MIT/Apache 2.0'
 [matrix-badge--shields]: https://img.shields.io/badge/matrix-join%20chat-%2346BC99?logo=matrix 'Chat on Matrix'
