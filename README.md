@@ -86,7 +86,7 @@ project in continuous development, omissions and errors may exist, for which
 
 <br /><br />
 
-#### Installation
+### Installation
 
 `@openinf/util-text` runs on
 [supported versions of Node.js](#platform--node-js-lts) and is available via
