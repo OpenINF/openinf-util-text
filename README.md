@@ -2,18 +2,18 @@
 
 <div align="center">
 
-# @openinf/util-text
+## @openinf/util-text
 
 Essential cross-platform terminal-friendly text utilities
 
-<br />
+<br /><br />
 
 [!['View on npm'][npm-badge--shields]][npm-badge-url]
-[!['License: MIT'][license-badge--shields]][license-badge-url]
+[!['License: MIT/Apache-2.0'][license-badge--shields]][license-badge-url]
 
 </div>
 
-<br />
+<br /><br />
 
 _The high-level goal of `@openinf/util-text` is to serve as a Node.js package
 containing **essential cross-platform text utilities** that degrade gracefully
@@ -57,7 +57,7 @@ contributions are welcome._
 
 </div></details>
 
-<br />
+<br /><br />
 
 <div align="center">
 
@@ -67,13 +67,13 @@ contributions are welcome._
 
 </div>
 
-<br />
+<br /><br />
 
 ---
 
-<br />
+<br /><br />
 
-## Installation
+#### Installation
 
 `@openinf/util-text` runs on
 [supported versions of Node.js](#platform--node-js-lts) and is available via
@@ -109,7 +109,7 @@ for more information.</sup>
 yarn add @openinf/util-text
 ```
 
-## Usage
+#### Usage
 
 To get started using the text utils provided by `@openinf/util-text`, all
 that needs to be done is either import/require (depending on the module format)
@@ -122,13 +122,13 @@ import { blueify, ellipsify } from '@openinf/util-text';
 console.log(blueify(ellipsify('Deserializing database tables')));
 ```
 
-<br />
+<br /><br />
 
 ---
 
-<br />
+<br /><br />
 
-## Functions
+#### Functions
 
 <dl>
 <dt><a href="#blueify">blueify(text)</a> ⇒ <code>string</code></dt>
@@ -160,7 +160,7 @@ spans (begining and ending with a single backtack) into HTML code elements.</p>
 
 <a name="UnicodeEscapes"></a>
 
-## UnicodeEscapes : <code>enum</code>
+#### UnicodeEscapes : <code>enum</code>
 **Kind**: global enum  
 **Properties**
 
@@ -176,7 +176,7 @@ spans (begining and ending with a single backtack) into HTML code elements.</p>
 
 <a name="blueify"></a>
 
-## blueify(text) ⇒ <code>string</code>
+#### blueify(text) ⇒ <code>string</code>
 Returns the supplied string as blue colored if ANSI escapes are supported.
 
 **Kind**: global function  
@@ -187,7 +187,7 @@ Returns the supplied string as blue colored if ANSI escapes are supported.
 
 <a name="curlyQuote"></a>
 
-## curlyQuote(text) ⇒ <code>string</code>
+#### curlyQuote(text) ⇒ <code>string</code>
 Returns the supplied string as curly quoted if Unicode is supported.
 
 **Kind**: global function  
@@ -198,7 +198,7 @@ Returns the supplied string as curly quoted if Unicode is supported.
 
 <a name="ellipsify"></a>
 
-## ellipsify(text) ⇒ <code>string</code>
+#### ellipsify(text) ⇒ <code>string</code>
 Returns the supplied string as ellipsified if Unicode is supported.
 
 **Kind**: global function  
@@ -209,7 +209,7 @@ Returns the supplied string as ellipsified if Unicode is supported.
 
 <a name="italicize"></a>
 
-## italicize(text) ⇒ <code>string</code>
+#### italicize(text) ⇒ <code>string</code>
 Returns the supplied string as italicized if ANSI escapes are supported.
 
 **Kind**: global function  
@@ -220,7 +220,7 @@ Returns the supplied string as italicized if ANSI escapes are supported.
 
 <a name="mdCodeSpans2html"></a>
 
-## mdCodeSpans2html(text) ⇒ <code>string</code>
+#### mdCodeSpans2html(text) ⇒ <code>string</code>
 Processes the supplied string by transforming any Markdown backtick code
 spans (begining and ending with a single backtack) into HTML code elements.
 
@@ -232,7 +232,7 @@ spans (begining and ending with a single backtack) into HTML code elements.
 
 <a name="redden"></a>
 
-## redden(text) ⇒ <code>string</code>
+#### redden(text) ⇒ <code>string</code>
 Returns the supplied string as red colored if ANSI escapes are supported.
 
 **Kind**: global function  
@@ -243,7 +243,7 @@ Returns the supplied string as red colored if ANSI escapes are supported.
 
 <a name="underline"></a>
 
-## underline(text) ⇒ <code>string</code>
+#### underline(text) ⇒ <code>string</code>
 Returns the supplied string as underlined if ANSI escapes are supported.
 
 **Kind**: global function  
@@ -254,7 +254,7 @@ Returns the supplied string as underlined if ANSI escapes are supported.
 
 <a name="yellow"></a>
 
-## yellow(text) ⇒ <code>string</code>
+#### yellow(text) ⇒ <code>string</code>
 Returns the supplied string as yellow colored if ANSI escapes are supported.
 
 **Kind**: global function  
@@ -268,34 +268,41 @@ Returns the supplied string as yellow colored if ANSI escapes are supported.
 
 ---
 
-<br />
+<br /><br />
 
-<div align="center">
+#### Contributing
 
-## Show Your Support
-
-<!-- Give a ⭐️ if this project helped you! -->
-
-If you like the project or want to bookmark it, [give it a star ⭐️]; it will
-greatly encourage us.
+Unless you explicitly state otherwise, any contribution intentionally submitted
+for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
+dual licensed as below, without any additional terms or conditions.
 
 <br /><br />
 
-&copy; The OpenINF Authors
+#### License
 
-<br />
+This project is licensed under either of
+
+- [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0) ([`LICENSE-APACHE`](LICENSE-APACHE))
+- [MIT license](https://opensource.org/licenses/MIT) ([`LICENSE-MIT`](LICENSE-MIT))
+
+at your option.
+
+The [SPDX](https://spdx.dev) license identifier for this project is `MIT OR Apache-2.0`.
+
+<br /><br />
+
+<div align=center>
 
 <a title="The OpenINF website" href="https://open.inf.is" rel="author">
-  <img alt="The OpenINF logo" height="32px" width="32px" src="https://raw.githubusercontent.com/openinf/openinf.github.io/live/logo.svg?sanitize=true" />
-</a>
+  <img alt="The OpenINF logo" height="32px" width="32px" src="https://raw.githubusercontent.com/openinf/openinf.github.io/live/logo.svg?sanitize=true" /></a>
 
 </div>
 
 [conventional-commits-badge]: https://img.shields.io/badge/commit%20style-Conventional-%23fa6673?logoColor=white&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMCAzMCI+PHBhdGggc3R5bGU9ImZpbGw6ICNGRkYiIGQ9Ik0xNSwyQTEzLDEzLDAsMSwxLDIsMTUsMTMsMTMsMCwwLDEsMTUsMm0wLTJBMTUsMTUsMCwxLDAsMzAsMTUsMTUsMTUsMCwwLDAsMTUsMFoiLz48L3N2Zz4K 'Commit Style: Conventional Commits'
 [conventional-commits-url]: https://www.conventionalcommits.org 'Commit Style: Conventional Commits'
 [give it a star ⭐️]: https://github.com/OpenINF/openinf-util-text/stargazers
-[license-badge--shields]: https://img.shields.io/badge/license-MIT-blue.svg?logo=github 'License: MIT'
-[license-badge-url]: https://spdx.org/licenses/MIT.html 'License: MIT'
+[license-badge--shields]: https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg?logo=github 'License: MIT/Apache 2.0'
+[license-badge-url]: #license 'License: MIT/Apache 2.0'
 [matrix-badge--shields]: https://img.shields.io/badge/matrix-join%20chat-%2346BC99?logo=matrix 'Chat on Matrix'
 [matrix-url]: https://matrix.to/#/#openinf:matrix.org 'You&apos;re invited to talk on Matrix'
 [npm-badge--shields]: https://img.shields.io/npm/v/@openinf/util-text/latest.svg?logo=npm&color=fe7d37 'View on npm'
