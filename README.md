@@ -173,7 +173,7 @@ spans (begining and ending with a single backtack) into HTML code elements.</p>
 
 <a name="UnicodeEscapes"></a>
 
-##### UnicodeEscapes : <code>enum</code>
+#### UnicodeEscapes : <code>enum</code>
 **Kind**: global enum  
 **Properties**
 
@@ -189,7 +189,7 @@ spans (begining and ending with a single backtack) into HTML code elements.</p>
 
 <a name="blueify"></a>
 
-##### blueify(text) ⇒ <code>string</code>
+#### blueify(text) ⇒ <code>string</code>
 Returns the supplied string as blue colored if ANSI escapes are supported.
 
 **Kind**: global function  
@@ -200,7 +200,7 @@ Returns the supplied string as blue colored if ANSI escapes are supported.
 
 <a name="curlyQuote"></a>
 
-##### curlyQuote(text) ⇒ <code>string</code>
+#### curlyQuote(text) ⇒ <code>string</code>
 Returns the supplied string as curly quoted if Unicode is supported.
 
 **Kind**: global function  
@@ -211,7 +211,7 @@ Returns the supplied string as curly quoted if Unicode is supported.
 
 <a name="ellipsify"></a>
 
-##### ellipsify(text) ⇒ <code>string</code>
+#### ellipsify(text) ⇒ <code>string</code>
 Returns the supplied string as ellipsified if Unicode is supported.
 
 **Kind**: global function  
@@ -222,7 +222,7 @@ Returns the supplied string as ellipsified if Unicode is supported.
 
 <a name="italicize"></a>
 
-##### italicize(text) ⇒ <code>string</code>
+#### italicize(text) ⇒ <code>string</code>
 Returns the supplied string as italicized if ANSI escapes are supported.
 
 **Kind**: global function  
@@ -233,7 +233,7 @@ Returns the supplied string as italicized if ANSI escapes are supported.
 
 <a name="mdCodeSpans2html"></a>
 
-##### mdCodeSpans2html(text) ⇒ <code>string</code>
+#### mdCodeSpans2html(text) ⇒ <code>string</code>
 Processes the supplied string by transforming any Markdown backtick code
 spans (begining and ending with a single backtack) into HTML code elements.
 
@@ -245,7 +245,7 @@ spans (begining and ending with a single backtack) into HTML code elements.
 
 <a name="redden"></a>
 
-##### redden(text) ⇒ <code>string</code>
+#### redden(text) ⇒ <code>string</code>
 Returns the supplied string as red colored if ANSI escapes are supported.
 
 **Kind**: global function  
@@ -256,7 +256,7 @@ Returns the supplied string as red colored if ANSI escapes are supported.
 
 <a name="underline"></a>
 
-##### underline(text) ⇒ <code>string</code>
+#### underline(text) ⇒ <code>string</code>
 Returns the supplied string as underlined if ANSI escapes are supported.
 
 **Kind**: global function  
@@ -267,7 +267,7 @@ Returns the supplied string as underlined if ANSI escapes are supported.
 
 <a name="yellow"></a>
 
-##### yellow(text) ⇒ <code>string</code>
+#### yellow(text) ⇒ <code>string</code>
 Returns the supplied string as yellow colored if ANSI escapes are supported.
 
 **Kind**: global function  
