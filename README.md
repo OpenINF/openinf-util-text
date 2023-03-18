@@ -272,7 +272,6 @@ Returns the supplied string as yellow colored if ANSI escapes are supported.
 | --- | --- |
 | text | <code>string</code> | 
 
-
 <br /><br />
 
 ---
@@ -281,12 +280,12 @@ Returns the supplied string as yellow colored if ANSI escapes are supported.
 
 ### Contributing
 
-<br />
+<br /><br />
 
 Pull requests are welcome. For major changes, please open an issue first to
 discuss what you would like to change.
 
-<br />
+<br /><br />
 
 ### License
 
@@ -299,7 +298,7 @@ at your option.
 
 The [SPDX](https://spdx.dev) license identifier for this project is `MIT OR Apache-2.0`.
 
-<br />
+<br /><br />
 
 <div align=center>
 
