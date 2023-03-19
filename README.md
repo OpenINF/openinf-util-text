@@ -122,6 +122,8 @@ for more information.</sup>
 yarn add @openinf/util-text
 ```
 
+<br /><br />
+
 ### Usage
 
 To get started using the text utils provided by `@openinf/util-text`, all
