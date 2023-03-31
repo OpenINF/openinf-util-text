@@ -34,7 +34,7 @@
   "devDependencies": {
     "@types/node": "14.x || 16.x || 18.x",
     "tape": "5.6.3",
-    "typescript": "5.0.2"
+    "typescript": "5.0.3"
   },
   "dependencies": {
     "colorette": "2.0.19",
