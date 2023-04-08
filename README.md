@@ -71,7 +71,7 @@ project in continuous development, omissions and errors may exist, for which
 
 ---
 
-<br /><br />
+<br />
 
 ### Table of Contents
 
