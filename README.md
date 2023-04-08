@@ -77,6 +77,7 @@ project in continuous development, omissions and errors may exist, for which
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [API](#api)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -84,7 +85,7 @@ project in continuous development, omissions and errors may exist, for which
 
 ---
 
-<br /><br />
+<br />
 
 ### Installation
 
@@ -139,11 +140,7 @@ console.log(blueify(ellipsify('Deserializing database tables')));
 
 <br /><br />
 
----
-
-<br /><br />
-
-### Functions
+### API
 
 <dl>
 <dt><a href="#blueify">blueify(text)</a> ⇒ <code>string</code></dt>
