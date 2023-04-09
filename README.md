@@ -284,7 +284,8 @@ Returns the supplied string as yellow colored if ANSI escapes are supported.
 ### Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to
-discuss what you would like to change.
+discuss what you would like to change. If for whatever reason you spot something
+to fix but cannot patch it yourself, please [open an issue][].
 
 <br />
 
@@ -342,6 +343,7 @@ us.
 [matrix-url]: https://matrix.to/#/#openinf:matrix.org 'You&apos;re invited to talk on Matrix'
 [npm-badge--shields]: https://img.shields.io/npm/v/@openinf/util-text/latest.svg?logo=npm&color=fe7d37 'View on npm'
 [npm-badge-url]: https://www.npmjs.com/package/@openinf/util-text#top 'View on npm'
+[open an issue]: https://github.com/OpenINF/openinf-util-text/issues
 [prettier-badge]: https://img.shields.io/badge/code_style-Prettier-ff69b4.svg?logo=prettier 'Code Style: Prettier'
 [prettier-url]: https://prettier.io/playground 'Code Style: Prettier'
 [release-level-banner--unstable]: https://raw.githubusercontent.com/OpenINF/openinf.github.io/live/assets/img/svg/release-level-banner--unstable.svg?sanitize=true 'Banner for Release Level: Unstable'
