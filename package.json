@@ -37,7 +37,7 @@
     "typescript": "5.0.4"
   },
   "dependencies": {
-    "colorette": "2.0.19",
+    "colorette": "2.0.20",
     "has-unicode": "2.0.1",
     "supports-ansi": "1.0.6"
   }
