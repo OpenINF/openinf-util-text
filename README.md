@@ -143,6 +143,18 @@ console.log(blueify(ellipsify('Deserializing database tables')));
 
 ### API
 
+<br />
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/tip.svg">
+  <img alt="Tip" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/tip.svg">
+</picture><br>
+
+The &ldquo;supplied string&rdquo; should be supplied by a developer (not arbitrarily)
+and any user-supplied input beyond (in publicly-facing apps), should be preprocessed.
+
+<br />
+
 <dl>
 <dt><a href="#blueify">blueify(text)</a> ⇒ <code>string</code></dt>
 <dd><p>Returns the supplied string as blue colored if ANSI escapes are supported.</p>
