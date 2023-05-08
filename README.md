@@ -246,6 +246,15 @@ Returns the supplied string as italicized if ANSI escapes are supported.
 <a name="mdCodeSpans2html"></a>
 
 #### mdCodeSpans2html(text) ⇒ <code>string</code>
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/tip.svg">
+  <img alt="Tip" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/tip.svg">
+</picture><br>
+
+This API will be deprecated in the next release in favor of one that follows
+[Web Platform Design Principles](https://github.com/OpenINF/openinf-util-text/issues/169).
+
 Processes the supplied string by transforming any Markdown backtick code
 spans (begining and ending with a single backtack) into HTML code elements.
 
