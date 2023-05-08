@@ -152,6 +152,7 @@ console.log(blueify(ellipsify('Deserializing database tables')));
 
 The &ldquo;supplied string&rdquo; should be supplied by a developer (not arbitrarily)
 and any user-supplied input beyond (in publicly-facing apps), should be preprocessed.
+The next release may perform preprocessing to follow Web Platform Design Principles.
 
 <br />
 
