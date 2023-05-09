@@ -146,9 +146,9 @@ console.log(blueify(ellipsify('Deserializing database tables')));
 <br />
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/tip.svg">
-  <img alt="Tip" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/tip.svg">
-</picture><br>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/OpenINF/GitHub-Markdown/HEAD/blockquotes/badge/light-theme/tip.svg">
+  <img alt="Tip" src="https://raw.githubusercontent.com/OpenINF/GitHub-Markdown/HEAD/blockquotes/badge/dark-theme/tip.svg">
+</picture><br />
 
 The &ldquo;supplied string&rdquo; should be supplied by a developer (not arbitrarily)
 and any user-supplied input beyond (in publicly-facing apps), should be preprocessed.
@@ -249,9 +249,9 @@ Returns the supplied string as italicized if ANSI escapes are supported.
 #### mdCodeSpans2html(text) ⇒ <code>string</code>
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/tip.svg">
-  <img alt="Tip" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/tip.svg">
-</picture><br>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/OpenINF/GitHub-Markdown/HEAD/blockquotes/badge/light-theme/tip.svg">
+  <img alt="Tip" src="https://raw.githubusercontent.com/OpenINF/GitHub-Markdown/HEAD/blockquotes/badge/dark-theme/tip.svg">
+</picture><br />
 
 This API will be deprecated in the next release in favor of one that follows
 [Web Platform Design Principles](https://github.com/OpenINF/openinf-util-text/issues/169).
