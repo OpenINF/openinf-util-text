@@ -171,7 +171,7 @@ The next release may perform preprocessing to follow Web Platform Design Princip
 </dd>
 <dt><a href="#mdCodeSpans2html">mdCodeSpans2html(text)</a> ⇒ <code>string</code></dt>
 <dd><p>Processes the supplied string by transforming any Markdown backtick code
-spans (begining and ending with a single backtack) into HTML code elements.</p>
+spans (beginning and ending with a single backtick) into HTML code elements.</p>
 </dd>
 <dt><a href="#redden">redden(text)</a> ⇒ <code>string</code></dt>
 <dd><p>Returns the supplied string as red colored if ANSI escapes are supported.</p>
@@ -256,8 +256,8 @@ Returns the supplied string as italicized if ANSI escapes are supported.
 This API will be deprecated in the next release in favor of one that follows
 [Web Platform Design Principles](https://github.com/OpenINF/openinf-util-text/issues/169).
 
-Processes the supplied string by transforming any Markdown backtick code
-spans (begining and ending with a single backtack) into HTML code elements.
+Processes the supplied string by transforming any Markdown backtick code spans
+(beginning and ending with a single backtick) into HTML code elements.
 
 **Kind**: global function  
 

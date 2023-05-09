@@ -84,7 +84,7 @@ export function italicize(text:string):string {
 
 /**
  * Processes the supplied string by transforming any Markdown backtick code
- * spans (begining and ending with a single backtack) into HTML code elements.
+ * spans (beginning and ending with a single backtick) into HTML code elements.
  * @deprecated
  * @param {string} text
  * @returns {string}
