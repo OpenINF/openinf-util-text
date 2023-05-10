@@ -150,8 +150,8 @@ console.log(blueify(ellipsify('Deserializing database tables')));
   <img alt="Tip" src="https://raw.githubusercontent.com/OpenINF/GitHub-Markdown/HEAD/blockquotes/badge/dark-theme/tip.svg">
 </picture><br />
 
-The &ldquo;supplied string&rdquo; should be supplied by a developer (not arbitrarily)
-and any user-supplied input beyond (in publicly-facing apps), should be preprocessed.
+The &ldquo;supplied string&rdquo; should be supplied by app developer (not arbitrarily)
+because anything beyond that (e.g., in publicly-facing apps) may need be pre-processed.
 The next release may perform preprocessing to follow Web Platform Design Principles.
 
 <br />
