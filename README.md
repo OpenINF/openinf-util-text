@@ -22,9 +22,11 @@
 
 The high-level goal of `@openinf/util-text` is to serve as a Node.js package
 containing **essential cross-platform text utilities** that degrade gracefully
-when used in terminals lacking feature support. As is the case with any software
-project in continuous development, omissions and errors may exist, for which
-[contributions are welcome](#contributing).
+when used in terminals lacking feature support. We are constantly working to
+improve this repository, so please feel free to [contribute](#contributing) if
+you notice any omissions or errors.
+
+Thanks!
 
 <br />
 
