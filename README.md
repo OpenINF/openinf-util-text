@@ -158,6 +158,7 @@ console.log(blueify(ellipsify('Deserializing database tables')));
 
 <br />
 
+
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/OpenINF/GitHub-Markdown/HEAD/blockquotes/badge/light-theme/tip.svg">
   <img alt="Tip" src="https://raw.githubusercontent.com/OpenINF/GitHub-Markdown/HEAD/blockquotes/badge/dark-theme/tip.svg">
@@ -166,6 +167,21 @@ console.log(blueify(ellipsify('Deserializing database tables')));
 The &ldquo;supplied string&rdquo; should be supplied by app developer (not arbitrarily)
 because anything beyond that (e.g., in publicly-facing apps) may need be pre-processed.
 The next release may perform preprocessing to follow Web Platform Design Principles.
+
+
+
+<details>
+<summary>
+<a href="#" aria-controls="advanced-tips" aria-expanded="false"><h4 id="advanced-tips">Advanced tips</h4></a>
+</summary>
+
+> * Speak with a diverse mix of prospective users within your target population about your application and its intended purpose so as to get a wider perspective on potential risks and adjust diversity criteria as needed.
+> * The [AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) released by the U.S. government's National Institute of Standards and Technology (NIST) provides more detailed guidance and additional learning resources for AI risk management.
+> * DeepMind's publication on the [ethical and social risks of harm from language models](https://www.deepmind.com/publications/ethical-and-social-risks-of-harm-from-language-models) describes in detail the ways that language model applications can cause harm.
+>  
+> &mdash; https://developers.generativeai.google/guide/safety_guidance#expandable-1
+
+</details>
 
 <br />
 
