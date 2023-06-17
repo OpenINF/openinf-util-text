@@ -158,7 +158,6 @@ console.log(blueify(ellipsify('Deserializing database tables')));
 
 <br />
 
-
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/OpenINF/GitHub-Markdown/HEAD/blockquotes/badge/light-theme/tip.svg">
   <img alt="Tip" src="https://raw.githubusercontent.com/OpenINF/GitHub-Markdown/HEAD/blockquotes/badge/dark-theme/tip.svg">
@@ -168,17 +167,21 @@ The &ldquo;supplied string&rdquo; should be supplied by app developer (not arbit
 because anything beyond that (e.g., in publicly-facing apps) may need be pre-processed.
 The next release may perform preprocessing to follow Web Platform Design Principles.
 
-
-
 <details>
 <summary>
-<a href="#" aria-controls="advanced-tips" aria-expanded="false"><h4 id="advanced-tips">Advanced tips</h4></a>
+<a href="#" aria-controls="advanced-tips" aria-expanded="false"><h4 id="advanced-tips">Advanced Tips</h4></a>
 </summary>
 
-> * Speak with a diverse mix of prospective users within your target population about your application and its intended purpose so as to get a wider perspective on potential risks and adjust diversity criteria as needed.
-> * The [AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) released by the U.S. government's National Institute of Standards and Technology (NIST) provides more detailed guidance and additional learning resources for AI risk management.
-> * DeepMind's publication on the [ethical and social risks of harm from language models](https://www.deepmind.com/publications/ethical-and-social-risks-of-harm-from-language-models) describes in detail the ways that language model applications can cause harm.
->  
+> - Speak with a diverse mix of prospective users within your target population
+>   about your application and its intended purpose so as to get a wider
+>   perspective on potential risks and adjust diversity criteria as needed.
+> - The [AI Risk Management Framework][] released by the U.S. government's
+>   National Institute of Standards and Technology (NIST) provides more detailed
+>   guidance and additional learning resources for AI risk management.
+> - DeepMind's publication on the [ethical and social risks of harm from LMs][]
+>   describes in detail the ways that language model applications can cause
+>   harm.
+>
 > &mdash; https://developers.generativeai.google/guide/safety_guidance#expandable-1
 
 </details>
@@ -382,8 +385,12 @@ us.
 [![Orange banner indicating a preview software component][release-level-banner--unstable]](##)
 
 <!-- BEGIN LINK DEFINITIONS -->
+[AI Risk Management Framework]:
+  https://www.deepmind.com/publications/ethical-and-social-risks-of-harm-from-language-models
 [conventional-commits-badge]: https://img.shields.io/badge/commit%20style-Conventional-%23fa6673?logoColor=white&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMCAzMCI+PHBhdGggc3R5bGU9ImZpbGw6ICNGRkYiIGQ9Ik0xNSwyQTEzLDEzLDAsMSwxLDIsMTUsMTMsMTMsMCwwLDEsMTUsMm0wLTJBMTUsMTUsMCwxLDAsMzAsMTUsMTUsMTUsMCwwLDAsMTUsMFoiLz48L3N2Zz4K 'Commit Style: Conventional Commits'
 [conventional-commits-url]: https://www.conventionalcommits.org 'Commit Style: Conventional Commits'
+[ethical and social risks of harm from LMs]:
+  https://www.nist.gov/itl/ai-risk-management-framework
 [give it a star ⭐️]: https://github.com/OpenINF/openinf-util-text/stargazers
 [license-badge--shields]: https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg?logo=github 'License: MIT/Apache 2.0'
 [license-badge-url]: #license 'License: MIT/Apache 2.0'
