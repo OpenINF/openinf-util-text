@@ -172,8 +172,18 @@ The next release may perform preprocessing to follow Web Platform Design Princip
 <a href="#" aria-controls="advanced-tips" aria-expanded="false"><h4 id="advanced-tips">Advanced Tips</h4></a>
 </summary>
 
+<br />
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/OpenINF/GitHub-Markdown/HEAD/blockquotes/badge/light-theme/warning.svg">
+  <img alt="Warning" src="https://raw.githubusercontent.com/OpenINF/GitHub-Markdown/HEAD/blockquotes/badge/dark-theme/warning.svg">
+</picture><br />
+Notice that these APIs were not built for (and are not good for) language models.
+
+<br /><br />
+
 > - Speak with a diverse mix of prospective users within your target population
->   about your application and its intended purpose so as to get a wider
+>   about your application and its intended purpose to get a wider
 >   perspective on potential risks and adjust diversity criteria as needed.
 > - The [AI Risk Management Framework][] released by the U.S. government's
 >   National Institute of Standards and Technology (NIST) provides more detailed
