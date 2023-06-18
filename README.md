@@ -181,18 +181,14 @@ The next release may perform preprocessing to follow Web Platform Design Princip
 Notice that these APIs were not built for (and are potentially not good for)
 language models:
 
-<br /><br />
-
-- Speak with a diverse mix of prospective users of your application within your
-  target population about its intended purpose so as to gain a wider perspective
-  on any potential risks it may have and have your app be adapted to fit those
-  particular circumstances.
-
 <br />
 
-&#x24D8; This tip was paraphrased from [safety guidance provided by Google AI][];
-however, further reading on the topic of AI safety guidance may be available
-elsewhere.
+- Speak with a diverse mix of prospective users of your application within your
+  target population about its intended purpose to gain a wider perspective on
+  potential risks and have your app be adapted to those circumstances.<br />
+
+  &#x24D8; This tip was paraphrased from [Google AI safety guidance][]; however,
+  further reading on the topic of AI safety guidance may be available elsewhere.
 
 </details>
 
@@ -409,7 +405,7 @@ us.
 [prettier-url]: https://prettier.io/playground 'Code Style: Prettier'
 [project-status-badge]: https://img.shields.io/badge/project%20status-under%20construction-orange 'Project Status: Under construction badge'
 [release-level-banner--unstable]: https://raw.githubusercontent.com/OpenINF/openinf.github.io/live/assets/img/svg/release-level-banner--unstable.svg?sanitize=true 'Banner for Release Level: Unstable'
-[safety guidance provided by Google AI]:
+[Google AI safety guidance]:
   https://developers.generativeai.google/guide/safety_guidance
   "Safety Guidance for Developers of Generative AI Applications"
 <!-- END LINK DEFINITIONS -->
