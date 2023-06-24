@@ -1,13 +1,14 @@
 {
-  "name": "@openinf/util-text",
+  "name": "@openinf-internal/util-text-monorepo",
+  "private": true,
   "version": "0.0.0-development",
-  "description": "Essential cross-platform terminal-friendly text utilities",
+	"description": "Package-based monorepo for @openinf/util-text and friends",
+  "workspaces": ["packages/*"],
   "packageManager": "pnpm@8.6.3",
   "license": "MIT OR Apache-2.0",
   "author": "The OpenINF Authors",
   "devDependencies": {
-    "@types/node": "20.3.1",
-    "tape": "5.6.3",
+    "@types/node": "20.x.x",
     "typescript": "5.1.3"
   }
 }
