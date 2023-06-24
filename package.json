@@ -3,31 +3,8 @@
   "version": "0.0.0-development",
   "description": "Essential cross-platform terminal-friendly text utilities",
   "packageManager": "pnpm@8.6.3",
-  "keywords": [
-    "ansi",
-    "cli",
-    "console",
-    "shell",
-    "terminal",
-    "text",
-    "tty",
-    "unicode",
-    "xterm"
-  ],
-  "repository": "OpenINF/openinf-util-text",
   "license": "MIT OR Apache-2.0",
   "author": "The OpenINF Authors",
-  "directories": {
-    "lib": "lib",
-    "doc": "doc",
-    "test": "test"
-  },
-  "scripts": {
-    "prepare": "npm run compile-src && npm run compile-doc",
-    "compile-src": "tsc --project ./",
-    "compile-doc": "",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "devDependencies": {
     "@types/node": "20.3.1",
     "tape": "5.6.3",
