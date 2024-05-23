@@ -1,0 +1,29 @@
+{
+  "name": "supports-ansi",
+  "version": "1.0.6",
+  "description": "Detect whether a terminal supports ANSI escape sequences",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": "keqingrong/supports-ansi",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ansi",
+    "conemu",
+    "console",
+    "escape",
+    "mingw",
+    "msys",
+    "process",
+    "terminal",
+    "windows"
+  ],
+  "author": "keqingrong <keqingrong1992@gmail.com> (https://keqingrong.github.io/)",
+  "license": "MIT",
+  "dependencies": {
+    "is-mingw": "^2.0.0"
+  }
+}

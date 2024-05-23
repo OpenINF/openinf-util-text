@@ -1,0 +1,22 @@
+{
+  "name": "is-mingw",
+  "version": "2.0.0",
+  "description": "Check if the process is running inside MinGW",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": "keqingrong/is-mingw",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mingw",
+    "msys",
+    "process",
+    "terminal",
+    "windows"
+  ],
+  "author": "keqingrong <keqingrong1992@gmail.com> (https://keqingrong.github.io/)",
+  "license": "MIT"
+}
