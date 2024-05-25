@@ -3,7 +3,9 @@
   "private": true,
   "version": "0.0.0-development",
   "description": "Package-based monorepo for @openinf/util-text and friends",
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "packageManager": "pnpm@9.1.2",
   "license": "MIT OR Apache-2.0",
   "author": "The OpenINF Authors",
